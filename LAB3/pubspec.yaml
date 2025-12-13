@@ -1,0 +1,41 @@
+name: untitled2
+description: MealDB demo app
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  firebase_messaging: ^16.0.4
+  cloud_firestore: ^6.1.0
+
+
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.1
+
+
+  url_launcher: ^6.1.7
+  http: ^1.1.0
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/Noto_Sans/static/Notosans-Regular.ttf
